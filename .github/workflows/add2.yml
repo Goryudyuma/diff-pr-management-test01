@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - run: sh add.sh
-      - uses: dev-hato/actions-diff-pr-management@6d7a816ebc739dff9ca912882532c7b625cb2814
+      - uses: dev-hato/actions-diff-pr-management@d7eabdd42243d0f9e49c58cbacfc88fa57a6b5bf
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           branch-name-prefix: fix-add1
